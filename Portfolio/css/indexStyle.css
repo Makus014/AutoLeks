@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    background-position: center;
+    background-color: black;
+}
+
+
+.navList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.navList a{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 50px;
+    margin-left: 100px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dropDown{
+    float:right;
+    overflow: hidden;
+}
+
+.dropDown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 50px;
+    margin-left: 100px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.moreInfo {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 6px;
+}
+.moreInfo a {
+    float: none;
+    color: black;
+    background-color: white;
+    padding: 20px 30px ;
+    padding-left: 50px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+  
+.dropDown:hover .moreInfo {
+    display: block;
+}
+
+
+.navList a:hover{
+    color: rgb(133, 255, 243);
+}
+.dropbtn:hover {
+    color: rgb(133, 255, 243);
+}
+
+
+
+
+#welcomeh1{
+    text-align: center;
+    padding-right: 630px;
+    font-size: 70px;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+
+.contentContainer {
+    background-color: black; 
+    padding: 250px 100px;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+
+.imgContent{
+    float: right;
+    width: 650px;
+    height: 500px;
+    margin-top: -100px;
+    margin-right: -200px;
+}
+
+.subContentContainer{
+    justify-content: center;
+    /* background-color: green; */
+    padding: 50px 100px;
+    margin: 20px auto;
+    width: 1000px;
+}
+
+.pcontentInformation{
+    /* text-align: center; */
+    /* background-color: #969291; */
+    padding: 50px 10px;
+    font-size: 25px;
+    word-spacing: 5px;
+    color: white;
+    /* font-weight: 500; */
+    margin: auto;
+    text-indent: 50px;
+    margin-left: -250px;
+    font-family: sans-serif, Helvetica, sans-serif;
+
+}
+
+#ourServices{
+    text-align: center;
+    font-size: 70px;
+    padding: auto;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    background-color: black;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.subServices {
+    margin: 20px;
+    flex: 0 0 auto;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.subServices:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.subServices img{
+    margin-top: 50px;
+    width: 350px;
+    height: 400px;
+}
+
+.subServices p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.subServices p:last-child {
+    font-size: 20px;
+    font-weight: normal;
+    word-spacing: 5px;
+    margin-top: 20px;
+    color: #555;
+}
+
+
+
+.contentOtherContainer{
+    background-color: rgb(39, 39, 39);
+
+    padding: 190px 100px;
+    padding-top: 100px;
+    justify-content: center;
+}
+.subcontentOtherContainer{
+    justify-content: center;
+    /* background-color: green; */
+    padding: 50px 100px;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 1000px;
+}
+
+.imgOtherContent{
+    float: right;
+    width: 650px;
+    height: 500px;
+    margin-top: -100px;
+    margin-right: -200px;
+
+}
+
+.otherSubPcontainer{
+    /* background-color: black; */
+    position: relative;
+    padding-left: -50px;
+    /* padding: 100px 20px; */
+    right: 200px;
+}
+
+.PcontentOtherContainer{
+    /* text-align: center; */
+    /* background-color: #969291; */
+    /* padding: 60px 50px; */
+    font-size: 25px;
+    word-spacing: 5px;
+    color: white;
+    /* font-weight: 500; */
+    margin: auto;
+    text-indent: 50px;
+    font-family: sans-serif, Helvetica, sans-serif;
+
+}
+
+.aboutSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    background-color: black;
+    padding: 20px;
+    overflow-x: auto;
+
+}
+
+
+
+
+.subAboutSection{
+    margin: 15px;
+    flex: 0 0 auto;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 8px;
+    padding: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.subAboutSection p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+.subAboutSection p:last-child {
+    font-size: 20px;
+    font-weight: normal;
+    word-spacing: 5px;
+    margin-top: 20px;
+    color: white;
+}
+
+
+#aboutUs{
+    text-align: center;
+    font-size: 70px;
+    padding: auto;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: rgba(124, 215, 254, 1);
+}
+
+.footer .footer-section {
+    max-width: 250px;
+    margin: 10px;
+}
+
+.footer .footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.footer .newsletter button:hover {
+    background-color: #3d3d3d;
+}
